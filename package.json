@@ -1,6 +1,6 @@
 {
-  "name": "strapi-plugin-import-export-entries",
-  "version": "1.18.0",
+  "name": "strapi-export-helper-ama",
+  "version": "1.0.0",
   "description": "Import/Export data from and to your database in just few clicks.",
   "strapi": {
     "name": "import-export-entries",
@@ -60,15 +60,9 @@
   "peerDependencies": {
     "@strapi/strapi": "^4.0.0"
   },
-  "author": {
-    "name": "Baboo",
-    "url": "https://github.com/Baboo7"
-  },
+  "author": "Baboo (https://github.com/Baboo7)",
   "maintainers": [
-    {
-      "name": "Baboo",
-      "url": "https://github.com/Baboo7"
-    }
+    "Baboo (https://github.com/Baboo7)"
   ],
   "engines": {
     "node": ">=12.x.x <=18.x.x",
@@ -92,5 +86,10 @@
     "url": "https://github.com/Baboo7/strapi-plugin-import-export-entries/issues"
   },
   "homepage": "https://github.com/Baboo7/strapi-plugin-import-export-entries#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  }
 }
